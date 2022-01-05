@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:white;
+    margin-top: 100px;
+}
+.grid-container > div {
+    justify-self: center;
+    /* padding: 20px 0; */
+  }
+.adidas{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+}
+.apple{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.amazon{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+.beats{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+img{
+    border: solid 1px lightgray;
+}
